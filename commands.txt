@@ -1,0 +1,74 @@
+1. Store test result within a .txt file: 
+pytest bkashtest.py -v -s > test_results.txt
+
+2. Store details test result on failure  within a .txt file: 
+pytest bkashtest.py -vv > detailed_results.txt
+
+3. Run all tests in bkashtest.py:
+pytest bkashtest.py
+
+4. Run tests in verbose mode for bkashtest.py:
+pytest -v bkashtest.py
+
+5. Disable output capture (see print()s) in bkashtest.py:
+pytest -s bkashtest.py
+
+6. Stop after first failure in bkashtest.py:
+pytest -x bkashtest.py
+
+7. Stop after 2 failures in bkashtest.py:
+pytest --maxfail=2 bkashtest.py
+
+8. Run only tests whose names match an expression in bkashtest.py:
+pytest -k "expression" bkashtest.py
+
+9. Show local variables in tracebacks for bkashtest.py:
+pytest --showlocals bkashtest.py
+
+10. Rerun only the tests that failed last time in bkashtest.py:
+pytest --lf bkashtest.py
+
+11. Run the last-failed tests first (but still run all) in bkashtest.py:
+pytest --ff bkashtest.py
+
+12. Show duration of the slowest 10 tests in bkashtest.py:
+pytest --durations=10 bkashtest.py
+
+13. Generate a JUnit-style XML report for bkashtest.py:
+pytest --junitxml=report.xml bkashtest.py
+
+14. Generate an HTML report for bkashtest.py (requires pytest-html):
+pytest --html=report.html bkashtest.py
+
+15. Collect tests in bkashtest.py without executing:
+pytest --collect-only bkashtest.py
+
+16. Display the help message (options) for running bkashtest.py:
+pytest -h bkashtest.py
+
+17. Show the pytest version (and apply to bkashtest.py):
+pytest --version bkashtest.py
+
+18. Run all tests in bkashtest.py:
+pytest bkashtest.py
+
+19. Run tests in headed (GUI) mode:
+pytest --headed bkashtest.py 
+
+20. Run tests explicitly in headless mode:
+pytest --headless bkashtest.py
+
+21. Run tests on Firefox instead of Chromium:
+pytest --browser firefox bkashtest.py
+
+22. Run tests across multiple browsers in one command:
+pytest --browser chromium --browser firefox --browser webkit bkashtest.py
+
+23. Emulate a mobile device (e.g., iPhone 13 viewport):
+pytest --device="iPhone 13" bkashtest.py 
+
+24. Specify directory for test artifacts (screenshots, videos, traces):
+pytest --output=test-results bkashtest.py
+
+25. Record video for the entire session:
+pytest --video=on bkashtest.py
