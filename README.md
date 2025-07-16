@@ -8,7 +8,7 @@ The test suite is designed to display success and failure messages in the termin
 ## 🚀 Features Tested
 The following features of the bKash Developer website are automated:  
 
-🏠 Home Page Navigation  
+🏠 Home Page Navigation 
 💬 Minimize Chat Widget  
 📣 Campaigns Section  
 📰 Blog Section  
@@ -27,20 +27,7 @@ Modular Python scripts for reusable test logic and clean code
 
 ## 📂 Project Structure
 
-bKash-website-testing-automation/
-│
-├── inputs/                   Input data files (if any)
-├── logs/                     Log files generated during test runs
-├── pytest/                   Main test scripts directory
-│   ├── bkash-web-test.py     Main test runner script
-│   ├── urls.py               Stores all target URLs
-│
-├── screenshots/              Screenshots captured during failed tests
-├── tests/                    Additional test files or test data
-├── async.py                  Supporting Python script
-├── commands.txt              Useful command references
-├── pytest.ini                Pytest configuration file
-├── README.md                 Project documentation
+bKash-website-testing-automation/ │ ├── inputs/ Input data files (if any) ├── logs/ Log files generated during test runs ├── pytest/ Main test scripts directory │ ├── bkash-web-test.py Main test runner script │ ├── urls.py Stores all target URLs │ ├── screenshots/ Screenshots captured during failed tests ├── tests/ Additional test files or test data ├── async.py Supporting Python script ├── commands.txt Useful command references ├── pytest.ini Pytest configuration file ├── README.md Project documentation
 
 
 
