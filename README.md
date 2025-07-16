@@ -25,3 +25,21 @@ Playwright – Modern end-to-end web testing framework
 pytest – For organizing and running tests  
 Modular Python scripts for reusable test logic and clean code  
 
+## 📂 Project Structure
+
+bKash-website-testing-automation/
+│
+├── inputs/                  # Input data files (if any)
+├── logs/                    # Log files generated during test runs
+├── pytest/                  # Main test scripts directory
+│   ├── bkash-web-test.py    # Main test runner script
+│   ├── urls.py              # Stores all target URLs
+│
+├── screenshots/             # Screenshots captured during failed tests
+├── tests/                   # Additional test files or test data
+│
+├── commands.txt             # Useful command references
+├── pytest.ini               # Pytest configuration file
+├── README.md                # Project documentation
+
+
