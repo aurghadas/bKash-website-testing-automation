@@ -26,7 +26,7 @@ Playwright – Modern end-to-end web testing framework
 pytest – For organizing and running tests  
 Modular Python scripts for reusable test logic and clean code  
 
-### How to run the code?
+## How to run the code?
 1. Go to 'pytest' directory <br>
 2. execute 'pytest bkash-app-test.py' on terminal <br>
 3. Hit 'ENTER'  <br>
