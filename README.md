@@ -5,7 +5,6 @@ This program is built using Python and uses Playwright as the testing framework.
 The test suite is designed to display success and failure messages in the terminal for each tested feature as a whole. Each test outputs:
 ✅ A final summary message for each specific feature at the end of its execution.
 ❌ Failure details for any assertion that does not pass.
-
 🚀 Features Tested
 
 The following features of the bKash Developer website are automated:
@@ -22,10 +21,7 @@ The following features of the bKash Developer website are automated:
 Each feature includes explicit assertions that verify page navigation, UI element presence, and interactions.
 🛠️ Built With
 
-    Python 3.x – Programming language
-
-    Playwright – Modern end-to-end web testing framework
-
-    pytest – For organizing and running tests
-
-    Modular Python scripts for reusable test logic and clean code
+Python 3.x – Programming language
+Playwright – Modern end-to-end web testing framework
+pytest – For organizing and running tests
+Modular Python scripts for reusable test logic and clean code
