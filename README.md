@@ -5,17 +5,18 @@ The test suite is designed to display success and failure messages in the termin
 ✅ A final summary message for each specific feature at the end of its execution.  
 ❌ Failure details for any assertion that does not pass.  
 
-## 🚀 Features Tested
-The following features of the bKash Developer website are automated:  
 
-🏠 Home Page Navigation 
-💬 Minimize Chat Widget  
-📣 Campaigns Section  
-📰 Blog Section  
-📱 bKash App Page  
-🧮 Charge Calculator  
-📞 Customer Care Page  
-ℹ️ About Section  
+## 🚀 Features Tested
+The following features of the bKash Developer website are automated:<br><br>
+🏠 Home Page Navigation<br>
+💬 Minimize Chat Widget<br>
+📣 Campaigns Section<br>
+📰 Blog Section<br>
+📱 bKash App Page<br>
+🧮 Charge Calculator<br>
+📞 Customer Care Page<br>
+ℹ️ About Section
+
 
 Each feature includes explicit assertions that verify page navigation, UI element presence, and interactions.  
 
