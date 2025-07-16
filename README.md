@@ -38,7 +38,6 @@ bKash-website-testing-automation/
 │
 ├── screenshots/              Screenshots captured during failed tests
 ├── tests/                    Additional test files or test data
-├── async.py                  Supporting Python script
 ├── commands.txt              Useful command references
 ├── pytest.ini                Pytest configuration file
 └── README.md                 Project documentation
