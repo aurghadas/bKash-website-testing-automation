@@ -47,7 +47,7 @@ bKash-website-testing-automation/
 ├── commands.txt              Useful command references
 ├── pytest.ini                Pytest configuration file
 |── test results/
-|   |── bkash-web-testing.mp4 Test result of the code in video format  
+|   |── bkash-web-testing.mp4 Test results of the code in video format  
 └── README.md                 Project documentation
 
 
