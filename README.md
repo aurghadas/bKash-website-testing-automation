@@ -29,10 +29,10 @@ Modular Python scripts for reusable test logic and clean code
 ## How to run the code?
 1. Go to 'pytest' directory using this command:
      ```bash
-     'cd pytest' 
+     cd pytest
 3. Execute this following command on terminal to run the program:
      ```bash
-     'pytest bkash-web-test.py'
+     pytest bkash-web-test.py
 5. Hit 'ENTER'  <br>
 
 ## 📂 Project Structure
