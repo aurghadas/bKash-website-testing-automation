@@ -27,9 +27,13 @@ pytest – For organizing and running tests
 Modular Python scripts for reusable test logic and clean code  
 
 ## How to run the code?
-1. Go to 'pytest' directory 'cd pytest' <br>
-2. execute 'pytest bkash-web-test.py' on terminal <br>
-3. Hit 'ENTER'  <br>
+1. Go to 'pytest' directory using this command:
+     ```bash
+     'cd pytest' 
+3. Execute this following command on terminal to run the program:
+     ```bash
+     'pytest bkash-web-test.py'
+5. Hit 'ENTER'  <br>
 
 ## 📂 Project Structure
 
